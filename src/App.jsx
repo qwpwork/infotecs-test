@@ -134,7 +134,7 @@ export default function App() {
 
   //Table with users info
   const UsersData = (
-    <Container style={{width: '100%'}}>
+    <Container>
       <DataGrid
         rows={users}
         columns={columns}
@@ -147,7 +147,7 @@ export default function App() {
 
   //Render
   return (
-    <Box display="flex" alignItems="center" width="100vw" p={2}>
+    <Box display="flex" alignItems="center" minWidth="250px" width="100vw">
       {UserInfo}
       {UsersData}
     </Box>
