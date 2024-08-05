@@ -127,7 +127,7 @@ export default function App() {
         </List>
       </DialogContent>
       <DialogActions>
-        <Button onClick={handleClose}>Закрыть</Button>
+        <Button onClick={handleClose}>Close</Button>
       </DialogActions>
     </Dialog>
   )
